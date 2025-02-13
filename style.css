@@ -9,8 +9,8 @@ body {
     margin: 40px auto;
     padding: 20px;
     background-color: #a6f6eb;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.83);
 }
 
 header {
@@ -51,7 +51,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #362121;
     padding: 10px;
     text-align: left;
 }
