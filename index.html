@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="receipt-container">
+        <header>
+            <h1>Receipt</h1>
+            <p>Date: 2023-02-14</p>
+            <p>Receipt Number: #12345</p>
+        </header>
+        <section class="billing-info">
+            <h2>Billing Information</h2>
+            <p>Name: John Doe</p>
+            <p>Address: 123 Main St, Anytown, USA</p>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+        </section>
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product A</td>
+                        <td>2</td>
+                        <td>$10.99</td>
+                        <td>$21.98</td>
+                    </tr>
+                    <tr>
+                        <td>Product B</td>
+                        <td>1</td>
+                        <td>$5.99</td>
+                        <td>$5.99</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Subtotal:</td>
+                        <td>$27.97</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Tax (8%):</td>
+                        <td>$2.24</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Total:</td>
+                        <td>$30.21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <p>Thank you for your purchase!</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
